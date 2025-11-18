@@ -20,10 +20,6 @@ export default function ServicesPage() {
             <h1 className="text-4xl md:text-6xl font-extrabold text-brand-navy mb-6">
               Our Services
             </h1>
-            <p className="text-lg text-brand-ink/80 leading-relaxed">
-              We offer transparent, hands-on support for every stage of your
-              property journey—from initial viewings to final handover.
-            </p>
           </div>
         </Container>
       </section>
