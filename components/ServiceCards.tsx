@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Sparkles, Wrench, Search } from "lucide-react";
+import { Shield, Sparkles, Wrench, Home } from "lucide-react";
 import { ReactNode } from "react";
 
 interface Service {
@@ -30,10 +30,10 @@ const services: Service[] = [
       "Scope, quotes, timelines, and quality control—we handle the details so you don't have to.",
   },
   {
-    icon: <Search className="w-8 h-8" />,
-    title: "Sourcing Assist",
+    icon: <Home className="w-8 h-8" />,
+    title: "Property Care Plans",
     description:
-      "Viewing shortlists, due-diligence notes, and negotiation pointers for confident purchasing.",
+      "Proactive monthly or bi-weekly check-and-fix visits, small repairs included, clear photo reports, and fast callouts—keeping your property safe, compliant, and running smoothly.",
   },
 ];
 
