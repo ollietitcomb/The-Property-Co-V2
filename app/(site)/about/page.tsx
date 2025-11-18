@@ -102,17 +102,16 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <Container className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-6">
-            Let's work together
+            Ready to work with us?
           </h2>
           <p className="text-lg text-brand-ink/70 mb-8 max-w-2xl mx-auto">
-            We'd love to hear about your property project and discuss how we can
-            help.
+            Whether you need ongoing property care, support with a refurb, or help getting a home lettings-ready, we're here to make it easy.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 rounded-2xl bg-brand-teal text-white font-medium shadow-soft hover:bg-brand-teal/90 hover:translate-y-[1px] transition focus-ring"
           >
-            Get in touch
+            Call us now
           </a>
         </Container>
       </section>

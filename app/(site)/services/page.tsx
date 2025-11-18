@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import ServiceCards from "@/components/ServiceCards";
+import PricingCards from "@/components/PricingCards";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Owners' representation, lettings prep, refurb management, and sourcing assistance across Brighton & Hove.",
+  description: "Property care plans, owners' representation, lettings prep, and refurb management across Brighton & Hove.",
 };
 
 export default function ServicesPage() {
@@ -27,15 +28,48 @@ export default function ServicesPage() {
         </Container>
       </section>
 
-      {/* Services Grid */}
+      {/* Services Section */}
       <section className="py-20 bg-white">
         <Container>
+          <SectionHeading
+            title="What we do"
+            subtitle="Reliable, proactive property services for Brighton & Hove landlords, hosts, and homeowners."
+          />
           <ServiceCards />
         </Container>
       </section>
 
-      {/* Detailed Descriptions */}
+      {/* Pricing Section */}
       <section className="py-20 bg-brand-cloud">
+        <Container>
+          <SectionHeading
+            title="Property Care Plans – Pricing"
+            subtitle="Simple, transparent plans for ongoing property care in Brighton & Hove."
+          />
+          <PricingCards />
+          <div className="mt-12 text-center">
+            <div className="max-w-3xl mx-auto p-6 rounded-2xl bg-white border border-brand-cloud shadow-soft">
+              <h3 className="text-xl font-bold text-brand-navy mb-3">
+                Portfolios & bespoke plans
+              </h3>
+              <p className="text-brand-ink/70 mb-4">
+                Got 5+ properties or something more complex? We'll build a
+                tailored care plan and portfolio rate.{" "}
+                <a
+                  href="/contact"
+                  className="text-brand-teal hover:text-brand-teal-light font-medium underline"
+                >
+                  Call us now
+                </a>{" "}
+                to discuss a custom package.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Detailed Descriptions */}
+      <section className="py-20 bg-white">
         <Container>
           <div className="max-w-4xl mx-auto space-y-12">
             <div>
@@ -99,16 +133,16 @@ export default function ServicesPage() {
       <section className="py-20 bg-white">
         <Container className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-6">
-            Let's discuss your project
+            Ready to work with us?
           </h2>
           <p className="text-lg text-brand-ink/70 mb-8 max-w-2xl mx-auto">
-            Book a free 30-minute consultation to see how we can help.
+            Whether you need ongoing property care, support with a refurb, or help getting a home lettings-ready, we're here to make it easy.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 rounded-2xl bg-brand-teal text-white font-medium shadow-soft hover:bg-brand-teal/90 hover:translate-y-[1px] transition focus-ring"
           >
-            Get in touch
+            Call us now
           </a>
         </Container>
       </section>

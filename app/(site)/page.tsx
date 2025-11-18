@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import ServiceCards from "@/components/ServiceCards";
 import PricingCards from "@/components/PricingCards";
-import ProjectGrid from "@/components/ProjectGrid";
 import Testimonial from "@/components/Testimonial";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -57,21 +56,24 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* Recent Projects Section */}
-      <section className="py-20 bg-brand-cloud">
+      {/* Where we work Section */}
+      <section className="py-20 bg-white">
         <Container>
           <SectionHeading
-            title="Recent Projects"
-            subtitle="A snapshot of the work we've delivered for landlords and investors across the city."
+            title="Where we work"
+            subtitle="We operate across Brighton & Hove and the surrounding areas."
           />
-          <ProjectGrid />
-          <div className="text-center mt-10">
-            <a
-              href="/projects"
-              className="inline-block px-6 py-3 rounded-2xl border-2 border-brand-navy text-brand-navy font-medium hover:bg-brand-navy hover:text-white transition focus-ring"
-            >
-              View all projects
-            </a>
+          <div className="mt-8 w-full rounded-2xl overflow-hidden shadow-soft">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40150!2d-0.15!3d50.82!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509b0b7c4c3%3A0x93f3f4cde94cf795!2sBrighton%20and%20Hove!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk&z=10"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full"
+            />
           </div>
         </Container>
       </section>

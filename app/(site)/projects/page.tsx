@@ -37,16 +37,16 @@ export default function ProjectsPage() {
       <section className="py-20 bg-brand-cloud">
         <Container className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-6">
-            Want to see your project here?
+            Ready to work with us?
           </h2>
           <p className="text-lg text-brand-ink/70 mb-8 max-w-2xl mx-auto">
-            Let's chat about how we can bring your vision to life.
+            Whether you need ongoing property care, support with a refurb, or help getting a home lettings-ready, we're here to make it easy.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 rounded-2xl bg-brand-teal text-white font-medium shadow-soft hover:bg-brand-teal/90 hover:translate-y-[1px] transition focus-ring"
           >
-            Start a conversation
+            Call us now
           </a>
         </Container>
       </section>

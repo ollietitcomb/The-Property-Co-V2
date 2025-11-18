@@ -31,14 +31,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/projects"
-                  className="text-brand-cloud/80 hover:text-brand-teal-light transition"
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/about"
                   className="text-brand-cloud/80 hover:text-brand-teal-light transition"
                 >
