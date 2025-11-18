@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import ServiceCards from "@/components/ServiceCards";
+import PricingCards from "@/components/PricingCards";
 import ProjectGrid from "@/components/ProjectGrid";
 import Testimonial from "@/components/Testimonial";
 import Container from "@/components/Container";
@@ -24,6 +25,35 @@ export default function HomePage() {
             subtitle="Reliable, proactive property services for Brighton & Hove landlords, hosts, and homeowners."
           />
           <ServiceCards />
+        </Container>
+      </section>
+
+      {/* Pricing Section */}
+      <section className="py-20 bg-brand-cloud">
+        <Container>
+          <SectionHeading
+            title="Property Care Plans – Pricing"
+            subtitle="Simple, transparent plans for ongoing property care in Brighton & Hove."
+          />
+          <PricingCards />
+          <div className="mt-12 text-center">
+            <div className="max-w-3xl mx-auto p-6 rounded-2xl bg-white border border-brand-cloud shadow-soft">
+              <h3 className="text-xl font-bold text-brand-navy mb-3">
+                Portfolios & bespoke plans
+              </h3>
+              <p className="text-brand-ink/70 mb-4">
+                Got 5+ properties or something more complex? We'll build a
+                tailored care plan and portfolio rate.{" "}
+                <a
+                  href="/contact"
+                  className="text-brand-teal hover:text-brand-teal-light font-medium underline"
+                >
+                  Call us now
+                </a>{" "}
+                to discuss a custom package.
+              </p>
+            </div>
+          </div>
         </Container>
       </section>
 
