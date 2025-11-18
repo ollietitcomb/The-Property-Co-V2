@@ -16,20 +16,20 @@ export default function Hero() {
             </span>
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-brand-navy leading-tight">
-            Your better half{" "}
+            Your trusted partner{" "}
             <span className="bg-gradient-to-br from-brand-teal to-brand-teal-light bg-clip-text text-transparent">
               in property.
             </span>
           </h1>
           <p className="mt-6 text-lg text-brand-grey leading-relaxed">
-            From quick fixes to long-term plans - Brighton &amp; Hove's better half for property solutions.
+            From regular check-and-fix visits to full refurb projects, we take the stress out of keeping your property in top condition.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="/contact"
               className="px-5 py-3 rounded-2xl bg-brand-teal text-white font-medium shadow-soft hover:translate-y-[1px] hover:shadow-md transition focus-ring"
             >
-              Book a call
+              Call us now
             </a>
             <a
               href="/services"

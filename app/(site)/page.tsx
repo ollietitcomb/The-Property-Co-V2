@@ -21,7 +21,7 @@ export default function HomePage() {
         <Container>
           <SectionHeading
             title="What we do"
-            subtitle="From refurbs to lettings prep, we're your local property partner in Brighton & Hove."
+            subtitle="Reliable, proactive property services for Brighton & Hove landlords, hosts, and homeowners."
           />
           <ServiceCards />
         </Container>
@@ -64,13 +64,13 @@ export default function HomePage() {
             Ready to work with us?
           </h2>
           <p className="text-lg text-brand-cloud/90 mb-8 max-w-2xl mx-auto">
-            Whether you're planning a refurb, prepping for lettings, or need guidance on a property purchase, we're here to help.
+            Whether you need ongoing property care, support with a refurb, or help getting a home lettings-ready, we're here to make it easy.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 rounded-2xl bg-brand-teal-light text-white font-medium shadow-soft hover:bg-brand-teal-light/90 hover:translate-y-[1px] transition focus-ring"
           >
-            Book a call
+            Call us now
           </a>
         </Container>
       </section>

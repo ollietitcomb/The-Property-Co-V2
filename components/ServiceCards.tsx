@@ -12,6 +12,12 @@ interface Service {
 
 const services: Service[] = [
   {
+    icon: <Home className="w-8 h-8" />,
+    title: "Property Care Plans",
+    description:
+      "Regular check-and-fix visits with small repairs included, clear photo and video updates, and fast callouts — so your property stays safe, compliant, and running smoothly.",
+  },
+  {
     icon: <Shield className="w-8 h-8" />,
     title: "Owner's Rep",
     description:
@@ -27,13 +33,7 @@ const services: Service[] = [
     icon: <Wrench className="w-8 h-8" />,
     title: "Refurb Management",
     description:
-      "Scope, quotes, timelines, and quality control—we handle the details so you don't have to.",
-  },
-  {
-    icon: <Home className="w-8 h-8" />,
-    title: "Property Care Plans",
-    description:
-      "Proactive monthly or bi-weekly check-and-fix visits, small repairs included, clear photo reports, and fast callouts—keeping your property safe, compliant, and running smoothly.",
+      "Scope, quotes, timelines, and quality control — we handle the details so you don't have to.",
   },
 ];
 

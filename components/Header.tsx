@@ -49,7 +49,7 @@ export default function Header() {
               href="/contact"
               className="px-5 py-2.5 rounded-2xl bg-brand-teal text-white text-sm font-medium shadow-soft hover:bg-brand-teal/90 hover:translate-y-[1px] transition focus-ring"
             >
-              Book a call
+              Call us now
             </Link>
           </div>
 
@@ -88,7 +88,7 @@ export default function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                   className="block px-5 py-2.5 rounded-2xl bg-brand-teal text-white text-sm font-medium text-center shadow-soft"
                 >
-                  Book a call
+                  Call us now
                 </Link>
               </li>
             </ul>
