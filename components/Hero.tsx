@@ -22,7 +22,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-brand-grey leading-relaxed">
-            From quick fixes to long-term growth — Brighton & Hove's better half for property solutions.
+            From quick fixes to long-term plans - Brighton & Hove's better half for property solutions.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
