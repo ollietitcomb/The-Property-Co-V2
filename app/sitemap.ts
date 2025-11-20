@@ -1,37 +1,40 @@
-import { MetadataRoute } from "next";
+// app/sitemap.ts
+
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://betterhalfproperty.co.uk";
 
-  // Static routes
-  const staticRoutes = [
-    "",
-    "/services",
-    "/about",
-    "/contact",
-  ];
-
-  // SEO landing pages
-  const seoRoutes = [
-    "/seo/landlord-alternative-letting-agents-brighton",
-    "/seo/property-maintenance-self-managing-landlords-brighton",
-  ];
-
-  const routes = [
-    ...staticRoutes.map((route) => ({
-      url: `${baseUrl}${route}`,
+  return [
+    {
+      url: `${baseUrl}/`,
       lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: route === "" ? 1.0 : 0.8,
-    })),
-    ...seoRoutes.map((route) => ({
-      url: `${baseUrl}${route}`,
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/property-care-plans`,
       lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/seo/landlord-alternative-letting-agents-brighton`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/seo/property-maintenance-self-managing-landlords-brighton`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
-
-  return routes;
 }
-
