@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Sparkles, Wrench, Home } from "lucide-react";
+import { Shield, Sparkles, Wrench, Home, Key } from "lucide-react";
 import { ReactNode } from "react";
 
 interface Service {
@@ -18,10 +18,10 @@ const services: Service[] = [
       "Regular check-and-fix visits with small repairs included, clear photo and video updates, and fast callouts — so your property stays safe, compliant, and running smoothly.",
   },
   {
-    icon: <Shield className="w-8 h-8" />,
-    title: "Owner's Rep",
+    icon: <Key className="w-8 h-8" />,
+    title: "Property Sales Support",
     description:
-      "We oversee refurbs and trades, protect budgets, and keep you informed every step of the way.",
+      "Sell without agents, fees, or long waits. We buy properties directly and also work with trusted local investors — giving you fast decisions, fair offers, and flexible timeframes.",
   },
   {
     icon: <Sparkles className="w-8 h-8" />,
