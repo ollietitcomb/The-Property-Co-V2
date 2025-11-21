@@ -28,7 +28,7 @@ export default function HomePage() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-brand-cloud">
+      <section id="property-care-plans" className="py-20 bg-brand-cloud">
         <Container>
           <SectionHeading
             title="Property Care Plans – Pricing"
@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-brand-navy to-brand-teal text-white">
+      <section id="ready-to-work" className="py-20 bg-gradient-to-br from-brand-navy to-brand-teal text-white">
         <Container className="text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Ready to work with us?
