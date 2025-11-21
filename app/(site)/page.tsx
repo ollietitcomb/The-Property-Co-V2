@@ -82,9 +82,9 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <Container className="max-w-4xl">
           <Testimonial
-            quote="The Better Half took all the stress out of our refurb. They kept us updated every step, brought in brilliant trades, and delivered on time and on budget. Couldn't recommend them more highly."
-            author="Sarah M."
-            role="Landlord, Hove"
+            quote="The Better Half team spot issues before they turn into problems. Their monthly care plan has saved us time, money, and endless stress. The photo and video updates are brilliant — we always know exactly how the property is doing."
+            author="James R."
+            role="Landlord, Brighton"
           />
         </Container>
       </section>

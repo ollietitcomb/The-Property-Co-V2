@@ -27,7 +27,7 @@ const services: Service[] = [
     icon: <Sparkles className="w-8 h-8" />,
     title: "Lettings Prep",
     description:
-      "Fast turnarounds, snag lists, and styling to maximise yield and attract quality tenants.",
+      "Fast turnarounds, snag lists, styling, and compliance checks to maximise yield and attract quality tenants — including arranging EPCs, gas safety, and other essentials.",
   },
   {
     icon: <Wrench className="w-8 h-8" />,
