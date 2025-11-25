@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   description:
     "From quick fixes to long-term growth — Brighton & Hove's better half for property solutions.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.png", sizes: "64x64", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://betterhalfproperty.co"),
