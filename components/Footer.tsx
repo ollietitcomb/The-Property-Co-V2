@@ -55,10 +55,10 @@ export default function Footer() {
               <li className="flex items-center gap-2 text-brand-cloud/80">
                 <Mail size={16} className="text-brand-teal-light" />
                 <a
-                  href="mailto:hello@betterhalfproperty.co"
+                  href="mailto:hello@betterhalfproperty.co.uk"
                   className="hover:text-brand-teal-light transition"
                 >
-                  hello@betterhalfproperty.co
+                  hello@betterhalfproperty.co.uk
                 </a>
               </li>
               <li className="flex items-center gap-2 text-brand-cloud/80">

@@ -50,10 +50,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-brand-navy mb-1">Email</h3>
                     <a
-                      href="mailto:hello@betterhalfproperty.co"
+                      href="mailto:hello@betterhalfproperty.co.uk"
                       className="text-brand-teal hover:text-brand-teal-light transition"
                     >
-                      hello@betterhalfproperty.co
+                      hello@betterhalfproperty.co.uk
                     </a>
                   </div>
                 </div>

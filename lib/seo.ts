@@ -54,7 +54,7 @@ export const localBusinessSchema = {
     "From quick fixes to long-term growth — Brighton & Hove's better half for property solutions.",
   url: "https://betterhalfproperty.co",
   telephone: "+44-1273-XXXXXX",
-  email: "hello@betterhalfproperty.co",
+  email: "hello@betterhalfproperty.co.uk",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Brighton & Hove",
