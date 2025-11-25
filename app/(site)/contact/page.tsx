@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import ContactForm from "@/components/ContactForm";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MessageCircle, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -65,10 +65,27 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-brand-navy mb-1">Phone</h3>
                     <a
-                      href="tel:+441273000000"
+                      href="tel:+447344359975"
                       className="text-brand-teal hover:text-brand-teal-light transition"
                     >
-                      01273 XXX XXX
+                      07344 359975
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-teal to-brand-teal-light text-white flex items-center justify-center flex-shrink-0">
+                    <MessageCircle className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-brand-navy mb-1">WhatsApp</h3>
+                    <a
+                      href="https://wa.me/447344359975"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-brand-teal hover:text-brand-teal-light transition"
+                    >
+                      Message us on WhatsApp
                     </a>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import { Mail, Phone, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, MessageCircle, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -64,10 +64,21 @@ export default function Footer() {
               <li className="flex items-center gap-2 text-brand-cloud/80">
                 <Phone size={16} className="text-brand-teal-light" />
                 <a
-                  href="tel:+441273000000"
+                  href="tel:+447344359975"
                   className="hover:text-brand-teal-light transition"
                 >
-                  01273 XXX XXX
+                  07344 359975
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-brand-cloud/80">
+                <MessageCircle size={16} className="text-brand-teal-light" />
+                <a
+                  href="https://wa.me/447344359975"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-brand-teal-light transition"
+                >
+                  WhatsApp us
                 </a>
               </li>
             </ul>

@@ -386,7 +386,7 @@ export default function SeoPage({ params }: { params: { slug: string } }) {
           </p>
 
           <p className="text-brand-ink/80 leading-relaxed">
-            Call us on [your phone number here] or get in touch to discuss your
+            Call us on 07344 359975 or get in touch to discuss your
             property maintenance needs.
           </p>
 
