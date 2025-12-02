@@ -12,8 +12,9 @@ export const metadata: Metadata = {
     "From quick fixes to long-term growth — Brighton & Hove's better half for property solutions.",
   icons: {
     icon: [
-      { url: "/favicon.png", sizes: "64x64", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
   },
@@ -48,6 +49,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
