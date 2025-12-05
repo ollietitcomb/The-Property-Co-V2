@@ -8,11 +8,11 @@ export const defaultSEO: DefaultSeoProps = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://betterhalfproperty.co",
+    url: "https://betterhalfproperty.co.uk",
     siteName: "The Better Half Property Co",
     images: [
       {
-        url: "https://betterhalfproperty.co/og-image.png",
+        url: "https://betterhalfproperty.co.uk/og-image.png",
         width: 1200,
         height: 630,
         alt: "The Better Half Property Co - Your better half in property",

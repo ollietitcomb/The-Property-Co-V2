@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-touch-icon.png",
   },
-  metadataBase: new URL("https://betterhalfproperty.co"),
+  metadataBase: new URL("https://betterhalfproperty.co.uk"),
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://betterhalfproperty.co",
+    url: "https://betterhalfproperty.co.uk",
     siteName: "The Better Half Property Co",
     title: "The Better Half Property Co | Your better half in property",
     description:
@@ -49,6 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
         <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
         <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
